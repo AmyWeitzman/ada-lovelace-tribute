@@ -1,0 +1,70 @@
+body {
+    font-family: monospace;
+    background-color: rgb(228, 174, 245);
+    color: rgb(60, 60, 206);
+}
+
+#title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0;
+    text-shadow: 1px 2px 3px black;
+    transition: 0.2s ease-in;
+}
+
+#title:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+}
+
+#tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    width: 400px;
+    border: 10px solid rgb(156, 120, 9);
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#img-caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    display: flex;
+    font-size: 1.25rem;
+    line-height: 50px;
+}
+
+#info-list {
+    margin: auto;
+}
+
+hr {
+    border: 1px solid  rgb(60, 60, 206);
+    background-color: rgb(60, 60, 206);
+}
+
+#quote {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin: 30px 100px 30px 100px;
+}
+
+#tribute-link {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
